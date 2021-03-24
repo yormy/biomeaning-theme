@@ -24,7 +24,6 @@ $colors: (blue: $blue, indigo: $indigo, purple: $purple, pink: $pink, red: $red,
 ////////// SOCIAL COLORS //////////
 $social-colors: (twitter: #4DBFF5, facebook: #648ACA, google: #E55F4B, linkedin: #0177b4, pinterest: #cc2127, youtube: #e52d27, github: #333333, behance: #1769ff, dribbble: #ea4c89, reddit: #ff4500);
 ////////// SOCIAL COLORS //////////
-
 ////////// FONTS //////////
 $type-1: 'roboto',
 sans-serif;
@@ -148,7 +147,7 @@ $breadcrumb-custom-item-padding-x: 10px;
 $breadcrumb-item-bg: #dbe3e6 !default;
 ////////// BREAD CRUMBS VARIABLES //////////
 ////////// MODALS VARIABLES //////////
-$modal-inner-padding: .975rem;
+$modal-inner-padding: 15px;
 $modal-dialog-margin: 10px;
 $modal-dialog-margin-y-sm-up: 30px;
 $modal-title-line-height: $line-height-base;

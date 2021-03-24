@@ -1,12 +1,11 @@
-/* Layouts */
-
 @import "../../../../node_modules/bootstrap/scss/functions";
 @import "../../../../node_modules/bootstrap/scss/variables";
 @import "../main/variables";
-@import "./variables";
+@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap/scss/buttons";
 
-@import "../../../../resources/shared/scss/shared/mixins/misc";
 @import "../../../../resources/shared/scss/shared/mixins/animation";
 
+@import "./variables";
 
-@import "../../../../resources/shared/scss/demo_1/_demo_1";
+@import "../../../../resources/shared/scss/demo_4/_style.scss";
