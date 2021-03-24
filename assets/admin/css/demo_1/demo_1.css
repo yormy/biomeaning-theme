@@ -240,7 +240,7 @@
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
   -ms-transition: width 0.25s ease, background 0.25s ease;
-  background: #1c45ef;
+  background: #ff0000;
   width: 270px;
   height: 63px;
 }
@@ -402,7 +402,7 @@
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 63px);
-  background: linear-gradient(to top, #5768f3, #1c45ef);
+  background: linear-gradient(to top, #5768f3, #ff0000);
   font-family: "roboto", sans-serif;
   padding: 0;
   width: 270px;
@@ -857,4 +857,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=demo_1.css.map */

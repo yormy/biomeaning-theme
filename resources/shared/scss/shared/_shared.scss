@@ -1,0 +1,50 @@
+
+/* === Template mixins === */
+
+@import "mixins/animation";
+@import "mixins/background";
+@import "mixins/blockqoute";
+@import "mixins/buttons";
+@import "mixins/cards";
+@import "mixins/misc";
+@import "mixins/text";
+/*-------------------------------------------------------------------*/
+
+/* === Core Styles === */
+
+@import "reset";
+@import "fonts";
+@import "functions";
+@import "typography";
+@import "misc";
+@import "utilities";
+@import "demo";
+@import "dashboard";
+/*-------------------------------------------------------------------*/
+
+/* === Components === */
+
+@import "components/bootstrap-progress";
+@import "components/buttons";
+@import "components/cards";
+@import "components/checkbox-radio";
+@import "components/dropdown";
+@import "components/forms";
+@import "components/icons";
+@import "components/lists";
+@import "components/preview";
+@import "components/tables";
+@import "components/timeline";
+/*-------------------------------------------------------------------*/
+
+/* === Plugin overrides === */
+
+@import "components/plugin-overrides/chartjs";
+@import "components/purchase-banner";
+/*-------------------------------------------------------------------*/
+
+/* === Landing screens === */
+
+@import "screens/auth";
+@import "screens/error";
+/*-------------------------------------------------------------------*/
