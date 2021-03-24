@@ -1,0 +1,8 @@
+{
+  "phone" : {
+    "countrySelectorLabel": "Land code",
+      "countrySelectorError": "Error",
+      "phoneNumberLabel": "Telefoonnummer",
+      "example": "Voorbeeld :"
+  }
+}

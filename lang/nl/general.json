@@ -1,0 +1,12 @@
+{
+    "utc" : "UTC",
+    "user_agent" : "browser",
+    "created_at" : "aangemaakt op",
+    "date" : "Datum",
+    "ip": "IP",
+    "since" : "Sinds",
+    "disable" : "Uit zetten",
+    "enable" : "Aan zetten",
+    "cancel" : "Annuleren",
+    "delete" : "Verwijderen"
+}

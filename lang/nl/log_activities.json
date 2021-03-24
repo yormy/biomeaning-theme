@@ -1,0 +1,14 @@
+{
+    "title" : "",
+    "subtitle" : "",
+    "description" : "",
+
+    "field" : {
+        "description": {
+            "label" : "Omschrijving"
+        },
+        "ip_user": {
+            "label" : "IP Gebruiker"
+        }
+    }
+}

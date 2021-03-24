@@ -1,0 +1,62 @@
+{
+  "name": "bedrock-vue-components",
+  "version": "1.0.1",
+  "description": "Vue component library for bedrock",
+  "keywords": [
+    "vue"
+  ],
+  "author": "dev@mexion.com",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yormy/bedrock-vue-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yormy/bedrock-vue-components/issues"
+  },
+  "homepage": "https://github.com/yormy/bedrock-vue-components#readme",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --ext .js,.vue ./src"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.6.0",
+    "eslint-webpack-plugin": "^2.5.1",
+    "rollup": "^2.23.1",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "rollup-plugin-vue": "^5.1.6",
+    "tslib": "^1.14.1",
+    "typescript": "^4.1.5",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

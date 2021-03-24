@@ -1,0 +1,21 @@
+{
+    "utc" : "UTC",
+    "user_agent" : "browser",
+    "created_at" : "created at",
+    "date" : "Date",
+    "ip": "IP",
+    "ip_address": "IP Address",
+    "since" : "Since",
+    "disable" : "Disable",
+    "enable" : "Enable",
+    "cancel" : "Cancel",
+    "delete" : "Delete",
+    "email": "Email",
+    "comment" : "Comment",
+    "user" : "User",
+    "name" : "Name",
+    "description" : "description",
+    "count" : "Count",
+    "until" : "until",
+    "filter" : "Filter"
+}

@@ -1,0 +1,17 @@
+{
+    "title" : "",
+    "subtitle" : "",
+    "description" : "",
+
+    "field" : {
+        "event": {
+            "label" : "Event"
+        },
+        "description": {
+            "label" : "Description"
+        },
+        "ip_user": {
+            "label" : "IP User"
+        }
+    }
+}

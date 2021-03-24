@@ -1,0 +1,20 @@
+{
+    "title" : "",
+    "subtitle" : "",
+    "description" : "",
+
+    "field" : {
+        "level": {
+            "label" : "Level"
+        },
+        "middleware": {
+            "label" : "Middleware"
+        },
+        "ip_user": {
+            "label" : "IP User"
+        },
+        "url": {
+            "label" : "URL"
+        }
+    }
+}

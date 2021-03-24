@@ -1,0 +1,64 @@
+{
+   "card": {
+       "total_members" : {
+           "subtitle" : "Totaal aantal members"
+       },
+       "registrations_expired" : {
+           "subtitle" : "Verlopen registraties"
+       },
+       "registrations_pending" : {
+           "subtitle" : "Registraties pending"
+       },
+       "members_with_subscription" : {
+           "subtitle" : "Members met abbonnement"
+       },
+       "members_without_subscription" : {
+           "subtitle" : "Members zonder abbonnement"
+       }
+   },
+    "table" : {
+        "subscriptions_new" : {
+            "title" : "Nieuwe Abbonementen"
+        },
+        "subscriptions_cancelled" : {
+            "title" : "Geannuleerd"
+        },
+        "subscriptions_ending" : {
+            "title" : "Eindigd"
+        },
+
+        "members_recent" : {
+            "title" : "Recente members"
+        },
+
+        "registrations_recent" : {
+            "title" : "Recente registraties"
+        },
+
+        "registrations_expired" : {
+            "title" : "Verlopen registraties"
+        },
+
+        "emails_recent" : {
+            "title" : "Recente emails"
+        },
+
+        "activities" : {
+            "title" : "Activiteiten"
+        },
+
+        "audits" : {
+            "title" : "Audits"
+        }
+    },
+
+    "recent_emails" : {
+        "field" : {
+            "recipient" : "ontvanger",
+            "subject" : "onderwerp",
+            "opens" : "opens",
+            "clicks" : "clicks"
+        }
+    }
+
+}

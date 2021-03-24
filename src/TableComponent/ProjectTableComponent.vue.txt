@@ -1,0 +1,106 @@
+<template>
+  <div>
+    <v-data-table
+      :headers="[
+        { text: '', value: 'ip' },
+        { text: '', value: 'actions', sortable: false },
+      ]"
+      :items="project.ip_whitelist"
+      :items-per-page="10"
+      class="elevation-1"
+    >
+      <template v-slot:item.actions="{ item }">
+        <button-delete :item="item" @deleteItem="deleteAgreed(item)">
+          <template v-slot:delete-preview>
+            {{ item.ip }}
+          </template>
+        </button-delete>
+      </template>
+    </v-data-table>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    project: {
+      type: Object,
+      required: true,
+    },
+
+    toLang: {
+      type: String,
+      required: true,
+    },
+  },
+
+  data() {
+    return {
+      projectName: this.project.name,
+
+      isSaving: false,
+
+      apiErrors: [],
+    };
+  },
+
+  methods: {
+    updateProject() {
+      this.isSaving = true;
+      const successUrl = this.route('user.multilingual.projects.show', [
+        this.project.xid,
+        this.toLang,
+      ]);
+      const updateUrl = this.route('api.v1.member.multilingual.projects.update', this.project.xid);
+
+      const data = {
+        project_name: this.projectName,
+      };
+
+      const self = this;
+      this.$http
+        .put(updateUrl, data)
+        .then(() => {
+          window.location.href = successUrl;
+        })
+        .catch((error) => {
+          self.apiErrors = error.response.data.errors;
+          self.isSaving = false;
+        })
+        .finally(() => {});
+    },
+
+    deleteAgreed(item) {
+      this.table.values = this.deleteItemFromTable(this.table.values, item, 'xid');
+      this.deleteModal = false;
+      this.deleteItem(item);
+    },
+
+    deleteItem(item) {
+      return;
+      this.clearformResult();
+      this.form.state.isSubmittingRemove = true;
+
+      const url = this.route('api.v1.admin.users.terms.delete', item.xid);
+
+      this.$http
+        .delete(url)
+        .then((response) => {
+          if (response.data.success) {
+            this.form.messages.success = response.data.message;
+          } else {
+            this.form.messages.error = response.data.message;
+            this.table.values = this.restoreTable();
+          }
+        })
+        .catch((error) => {
+          this.table.values = this.restoreTable();
+          this.form.messages.error = error.response.data.message;
+        })
+        .finally(() => {
+          this.form.state.isSubmittingRemove = false;
+        });
+    },
+  },
+};
+</script>

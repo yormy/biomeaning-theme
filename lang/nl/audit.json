@@ -1,0 +1,26 @@
+{
+    "title" : "",
+    "subtitle" : "",
+    "description" : "",
+
+    "field" : {
+        "event": {
+            "label" : "Event"
+        },
+        "description": {
+            "label" : "Omschrijving"
+        },
+        "ip_user": {
+            "label" : "IP Gebruiker"
+        },
+        "difference": {
+            "label" : "Verschil"
+        },
+        "impersonated": {
+            "label" : "Impersonated"
+        },
+        "auditable": {
+            "label" : "auditable"
+        }
+    }
+}

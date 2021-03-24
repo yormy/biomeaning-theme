@@ -1,0 +1,175 @@
+{
+    "delete": "delete",
+    "add" : "add",
+    "cancel" : "cancel",
+    "internal_note" : "internal note",
+    "update" : "update",
+    "update-and-next" : "update and next",
+    "ip-addresses" : "ip-addresses",
+    "ip-address" : "ip-address",
+    "browsers" : "browsers",
+    "save" : "save",
+    "check" : "check",
+    "email-address" : "email address",
+    "blacklisted_by" : "blacklisted by",
+    "email" : "email",
+    "actions" : "actions",
+    "comment" : "comment",
+    "timezone" : "timezone",
+    "timezone_hint" : "Select your timezone for displaying the correct times",
+    "active" : "active",
+    "request_change" : "request change",
+    "open" : "open",
+    "since" : "since",
+    "password" : "password",
+    "loginname" : "loginname",
+    "created_at" : "created at",
+    "ending_at" : "ends at",
+    "cancelled_at" : "cancelled at",
+    "updated_at" : "updated at",
+    "action" : "action",
+    "tries" : "tries",
+    "block_until" : "block until",
+    "user_agent" : "user agent",
+    "last_activity" : "last activity",
+    "description" : "description",
+    "user_ip" : "User ip",
+    "event" : "event",
+    "diff" : "diff",
+    "impersonated" : "impersonated",
+    "impersonate": "impersonate",
+    "auditable" : "auditable",
+    "log_id" : "log id",
+    "blocked" : "blocked",
+    "url" : "url",
+    "level" : "level",
+    "middleware" : "middleware",
+    "host" : "Host",
+    "remote_ip" : "remote ip",
+    "request" : "request",
+    "time" : "time",
+    "phone" : "phone",
+    "roles": "roles",
+    "member": "member",
+    "loading" : "loading...",
+
+    "activity" : {
+        "tabs" : {
+            "emails" : "emails"
+        }
+    },
+
+    "emails" : {
+        "recipient" : "recipient",
+        "subject" : "subject",
+        "opens" : "opens",
+        "clicks" : "clicks"
+    },
+
+    "sessions" : {
+        "current" : "current",
+        "logout" : "logout"
+    },
+
+
+    "routes" : {
+        "without_permissions": "without_permissions"
+    },
+    "select" : "select",
+    "search" : "search",
+
+
+    "registration" : {
+        "re-enter-password" : "enter your password again",
+        "button_action" : "register now",
+        "locale" : "locale",
+        "timezone" : "timezone",
+        "terms_general" : "terms_general",
+        "terms_marketing" : "terms_marketing",
+        "invite_code" : "invite_code",
+        "is_finished" : "is_finished"
+    },
+
+    "confirmtoken" : {
+        "field" : {
+            "label" : "enter your confirmtoken",
+            "hint": ""
+        },
+        "resend" : "resend",
+        "confirm" : "confirm"
+    },
+
+    "admin" : {
+        "system" : {
+            "security": {
+                "blacklist" : {
+                    "email" : {
+                        "title" : "blacklist an email address",
+                        "description" : "blacklist a specific email, or wildcard (*@hacker.com)"
+                    },
+                    "ip" : {
+                        "title" : "blacklist an ip address",
+                        "description" : "blacklist a specific ip, or wildcard (*.123.123)"
+                    }
+                }
+            }
+        }
+
+    },
+
+    "standby_reasons" : {
+        "form_add" : {
+            "title" : "Add standby reason",
+            "description" : "description",
+            "internal_note" : "internal_note"
+        },
+        "history" : {
+            "header" : "History of standby reasons",
+            "reason" : "reason",
+            "internal_note" : "internal note",
+            "resolution" : "resolution"
+        }
+    },
+
+    "profile" : {
+        "notifications": {
+            "list": {
+                "title": "title",
+                "summary": "summary",
+                "sent_at": "sent at",
+                "mark_all_as_read" : "Mark Read",
+                "mark_as_read" : "Mark Read",
+                "mark_as_unread" : "Mark UnRead"
+            },
+            "settings" : {
+                "notification_subscriptions": "Notification Subscriptions",
+                "mail_subscription" : "mail",
+                "slack_subscription" : "slack",
+                "sms_subscription" : "SMS"
+
+            }
+        }
+    },
+
+    "user" : {
+        "notify" : {
+            "message" : {
+                "subject" : "subject",
+                "html_message" : "html message",
+                "text_message" : "plain text message",
+                "summary" : "summary",
+                "auto_copied_from_html" : "Automatically copied from html"
+            },
+            "success" : {
+                "title" : "Message sent successfully"
+            }
+        }
+    },
+
+    "email_compose" : {
+        "token_tips" : "To add a button type link: [[button:click here,http://example.com]]"
+    },
+    "difference" : "difference",
+    "auditable" : "Auditable",
+    "ip_address" : "IP Address"
+}

@@ -1,0 +1,8 @@
+{
+  "phone" : {
+    "countrySelectorLabel": "Country code",
+      "countrySelectorError": "Error",
+      "phoneNumberLabel": "Phone number",
+      "example": "Example :"
+  }
+}

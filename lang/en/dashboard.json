@@ -1,0 +1,64 @@
+{
+    "card": {
+        "total_members" : {
+            "subtitle" : "total member"
+        },
+        "registrations_expired" : {
+            "subtitle" : "Expired registraties"
+        },
+        "registrations_pending" : {
+            "subtitle" : "Pending registrations"
+        },
+        "members_with_subscription" : {
+            "subtitle" : "Members with subscription"
+        },
+        "members_without_subscription" : {
+            "subtitle" : "Members without subscription"
+        }
+    },
+    "table" : {
+        "subscriptions_new" : {
+            "title" : "New subscription"
+        },
+        "subscriptions_cancelled" : {
+            "title" : "Cancelled"
+        },
+        "subscriptions_ending" : {
+            "title" : "Pending"
+        },
+
+        "members_recent" : {
+            "title" : "Recent members"
+        },
+
+        "registrations_recent" : {
+            "title" : "Recent registrations"
+        },
+
+        "registrations_expired" : {
+            "title" : "Expired registrations"
+        },
+
+        "emails_recent" : {
+            "title" : "Recent emails"
+        },
+
+        "activities" : {
+            "title" : "Activity"
+        },
+
+        "audits" : {
+            "title" : "Audits"
+        }
+    },
+
+    "recent_emails" : {
+        "field" : {
+            "recipient" : "Recipient",
+            "subject" : "Subject",
+            "opens" : "Opens",
+            "clicks" : "Clicks"
+        }
+    }
+
+}

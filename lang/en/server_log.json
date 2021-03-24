@@ -1,0 +1,46 @@
+{
+    "access" : {
+        "title": "Server Access Logs",
+        "field": {
+            "host": {
+                "label": "Host"
+            },
+            "user": {
+                "label": "User"
+            },
+            "remote_ip": {
+                "label": "Remote IP"
+            },
+            "request": {
+                "label": "Request"
+            }
+        }
+    },
+
+    "error" : {
+        "title" : "Server Error Logs",
+        "field": {
+            "severity": {
+                "label": "Severity"
+            },
+            "host": {
+                "label": "Host"
+            },
+            "referrer": {
+                "label": "Referrer"
+            },
+            "client_ip": {
+                "label": "Client IP"
+            },
+            "request": {
+                "label": "Request"
+            },
+            "date": {
+                "label": "Date"
+            },
+            "time": {
+                "label": "Time"
+            }
+        }
+    }
+}

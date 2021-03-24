@@ -1,0 +1,18 @@
+{
+    "title" : "Performance Statistics",
+    "weighted_pages" : "Pages Weighted",
+    "weighted_sql" : "SQL Weighted",
+    "top_pages" : "Top pages",
+    "top_sql" : "Top SQL",
+    "slow_pages": "Slow Pages",
+    "slow_sql": "Slow SQL",
+    "avg_time" : "Average Time",
+    "avg_weight" : "Average Weight",
+    "response_time" : "Response Time",
+    "statistics" : {
+        "average_page_response" : "Average Page Response",
+        "average_sql_response" : "Average SQL Response"
+    },
+    "exclude_default_pages" : "Exclude default pages (debugbar, logging inserts etc)"
+
+}
