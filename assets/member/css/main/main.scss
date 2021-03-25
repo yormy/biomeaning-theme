@@ -1,18 +1,2 @@
-/* === Import Bootstrap functions and variables === */
+@import "../../../../resources/shared/scss/shared/style.scss";
 
-@import "../../../../node_modules/bootstrap/scss/functions";
-@import "../../../../node_modules/bootstrap/scss/variables";
-/*-------------------------------------------------------------------*/
-
-/* === Import template variables === */
-
-@import "variables";
-/*-------------------------------------------------------------------*/
-
-/* === Boostrap Main SCSS === */
-
-
-@import "../../../../node_modules/bootstrap/scss/bootstrap";
-/*-------------------------------------------------------------------*/
-
-@import "../../../../resources/shared/scss/shared/_shared";
