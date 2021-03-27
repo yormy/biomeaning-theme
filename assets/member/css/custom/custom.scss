@@ -1,5 +1,7 @@
 @import "../../../../resources/shared/scss/custom/custom.scss";
 
+@import "./variables";
+
 .auth.theme-two .auto-form-wrapper {
     height: unset;
     max-height: unset;
@@ -7,4 +9,14 @@
 
 .dropdown-menu.dropdown-menu-right {
     right: unset !important;
+}
+
+.footer {
+    padding-top: 5px;
+    padding-bottom:0px;
+    padding-left: 20px;
+}
+
+.main-panel {
+    min-height: calc(100vh - 80px);
 }

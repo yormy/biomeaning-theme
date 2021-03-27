@@ -431,4 +431,14 @@ input:checked + .slider:before {
   right: unset !important;
 }
 
+.footer {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+.main-panel {
+  min-height: calc(100vh - 80px);
+}
+
 /*# sourceMappingURL=custom.css.map */
