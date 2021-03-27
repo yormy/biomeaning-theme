@@ -20,3 +20,25 @@
 .main-panel {
     min-height: calc(100vh - 80px);
 }
+
+.navbar {
+    .navbar-menu-wrapper {
+        .nav {
+            .nav-item {
+
+                &.user-dropdown {
+                    width:unset;
+
+                    .dropdown-menu {
+                        padding: 0px 0px;
+                        min-width:230px;
+                    }
+                }
+            }
+        }
+
+        ul {
+            padding-left :0px !important;
+        }
+    }
+}
