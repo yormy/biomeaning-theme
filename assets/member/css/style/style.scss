@@ -1,9 +1,7 @@
 @import "../../../../node_modules/bootstrap/scss/functions";
 @import "../../../../node_modules/bootstrap/scss/variables";
 
-@import "../../../../resources/shared/scss/shared/variables";
-@import "../main/variables";
-
+@import "./variables";
 
 @import "../../../../node_modules/bootstrap/scss/mixins";
 @import "../../../../node_modules/bootstrap/scss/buttons";
@@ -11,8 +9,6 @@
 @import "../../../../resources/shared/scss/shared/mixins/animation";
 
 
-@import "../../../../resources/shared/scss/demo_4/variables";
-@import "./variables";
 
 @import "../../../../resources/shared/scss/demo_4/nav";
 @import "../../../../resources/shared/scss/demo_4/navbar";
