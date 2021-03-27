@@ -1,10 +1,7 @@
 @import "../../../../resources/shared/scss/shared/variables";
 @import "../main/variables";
 @import "../../../../resources/shared/scss/demo_4/variables";
-
-$sidebar-collapse-panel-bg: #0033cc;
-
-$brand-primary: #6600ff;
+@import "../custom/variables";
 
 $footer-bg: $brand-primary;
 $footer-color : $white;
