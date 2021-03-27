@@ -30,7 +30,7 @@
                         font-size: 13px;
 
                         &.dropdown-header {
-                            background: #1b2d8f;
+                            background: $navbar-dropdown-header-color;
                             height: 85px;
                             color: #fff;
                         }
