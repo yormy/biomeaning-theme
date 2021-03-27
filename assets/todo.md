@@ -13,3 +13,8 @@ CON:
 
 
 Login
+
+Vuetify import where
+cannot rename app.scss to vuetyfi.scss
+vuetify overloading
+
