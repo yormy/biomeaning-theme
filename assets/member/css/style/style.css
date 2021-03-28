@@ -746,7 +746,7 @@ input[type=button].btn-block {
 }
 .navbar .navbar-menu-wrapper .nav .nav-item .dropdown-menu .dropdown-item {
   padding: 14px 25px;
-  color: #ffffff;
+  color: #000000;
   font-weight: 400;
   font-size: 13px;
 }
