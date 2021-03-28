@@ -1,11 +1,12 @@
 @import "../../../../resources/shared/scss/custom/custom.scss";
 
-@import "./variables";
+@import "../variables";
 
 .auth.theme-two .auto-form-wrapper {
     height: unset;
     max-height: unset;
 }
+
 
 .dropdown-menu.dropdown-menu-right {
     right: unset !important;

@@ -1562,7 +1562,7 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: yellow;
 }
 
 .table-hover tbody tr:hover {
@@ -11673,7 +11673,7 @@ pre {
   padding-top: 24px;
   padding-bottom: 24px;
   z-index: 2;
-  background: #F3F3F3;
+  background: #eaeaea;
 }
 
 .doc-content {
@@ -16317,7 +16317,7 @@ ul li {
   border-right: 1px solid transparent;
 }
 .table.table-striped tbody tr:nth-child(odd), .jsgrid .table-striped.jsgrid-table tbody tr:nth-child(odd) {
-  background: rgba(0, 0, 0, 0.05);
+  background: yellow;
 }
 .table.table-striped tbody tr:nth-child(even), .jsgrid .table-striped.jsgrid-table tbody tr:nth-child(even) {
   background: transparent;
@@ -16686,7 +16686,7 @@ ul li {
   text-align: right;
 }
 .settings-panel .chat-list .list.active {
-  background: white;
+  background: #f7f7f7;
 }
 .settings-panel.open {
   right: 0;
@@ -16772,7 +16772,7 @@ ul li {
   right: 10px;
   z-index: 99;
   padding: 5px;
-  background: #F3F3F3;
+  background: #eaeaea;
   border-radius: 4px;
   box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.4);
 }
@@ -17788,7 +17788,7 @@ ul li {
   flex-wrap: nowrap;
 }
 .board-wrapper .board-portlet {
-  background: #eaeaea;
+  background: #e1e1e1;
   margin: 0px 15px;
   padding: 22px 20px;
   min-width: 350px;
@@ -18047,7 +18047,7 @@ ul li {
   color: #6c757d;
 }
 .chat-app-wrapper .chat-container-wrapper .chat-bubble.incoming-chat .chat-message {
-  background: #F3F3F3;
+  background: #eaeaea;
   margin-left: 45px;
 }
 .chat-app-wrapper .chat-container-wrapper .chat-bubble.incoming-chat .sender-details .seen-text {
@@ -19140,7 +19140,7 @@ body.avgrund-active {
   font-weight: 500;
 }
 .dataTables_wrapper .dataTable.collapsed tbody > tr.child ul.dtr-details li:nth-child(even) {
-  background: #F3F3F3;
+  background: #eaeaea;
 }
 .dataTables_wrapper .dataTable.collapsed tbody > tr.child ul.dtr-details li:last-child {
   margin-bottom: 0;
@@ -20600,7 +20600,7 @@ div.tagsinput span.tag a {
   color: #fff;
 }
 .wizard > .content {
-  background: #F3F3F3;
+  background: #eaeaea;
   display: block;
   margin: 0.5em;
   min-height: 24em;
@@ -21091,7 +21091,7 @@ div.tagsinput span.tag a {
 .auth.multi-step-login {
   height: 100%;
   min-height: 100vh;
-  background: #F3F3F3;
+  background: #eaeaea;
 }
 .auth.multi-step-login .step-form {
   position: relative;
@@ -21128,7 +21128,7 @@ div.tagsinput span.tag a {
   font-size: 16px;
   font-weight: 600;
   color: #212529;
-  background: #e6e6e6;
+  background: #dddddd;
   border-radius: 100px;
   margin: 0 auto 5px auto;
 }
