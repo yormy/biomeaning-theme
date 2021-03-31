@@ -441,6 +441,10 @@ input:checked + .slider:before {
   min-height: calc(100vh - 80px);
 }
 
+.nav-item .nav-icon {
+  min-width: 30px;
+}
+
 .navbar .navbar-menu-wrapper .nav .nav-item.user-dropdown {
   width: unset;
 }
