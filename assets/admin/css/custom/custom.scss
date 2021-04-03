@@ -105,3 +105,19 @@
         width: 58px;
         height: 58px;
         opacity: 0; } }
+
+
+#app .primary
+{
+    background-color: map_get($theme-colors, 'primary') !important;
+}
+
+.marketing {
+    top: 0px;
+    left:0px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-left: 0px;
+    background-color:red;
+    height: 30px;
+}
