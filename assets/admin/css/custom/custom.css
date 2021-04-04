@@ -531,4 +531,8 @@ input:checked + .slider:before {
   height: 30px;
 }
 
+.loginform {
+  min-width: 400px;
+}
+
 /*# sourceMappingURL=custom.css.map */
