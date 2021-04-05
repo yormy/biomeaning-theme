@@ -542,4 +542,8 @@ input:checked + .slider:before {
   height: 60px;
 }
 
+.btn-primary {
+  color: white !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
