@@ -3,7 +3,12 @@
 .logviewer {
 
     a {
-        color: #FFFFFF !important;
+        color: #ffffff !important;
+
+    }
+
+    li.page-item a {
+        color: #000000 !important;
     }
 
     .box {

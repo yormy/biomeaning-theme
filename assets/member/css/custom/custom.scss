@@ -146,3 +146,18 @@
     border-radius:4px;
 }
 
+
+.nav-item .rbac {
+    &.denied {
+        //border-style: solid;
+        //border-color: orange;
+        //border-width: 2px;
+        text-decoration: line-through;
+        filter: brightness(55%);
+    }
+    &.allowed {
+        //border-style: solid;
+        //border-color: purple;
+        //border-width: 2px;
+    }
+}

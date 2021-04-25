@@ -302,7 +302,10 @@ input:checked + .slider:before {
    */
 }
 .logviewer a {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
+}
+.logviewer li.page-item a {
+  color: #000000 !important;
 }
 .logviewer .box {
   display: block;
@@ -548,6 +551,11 @@ input:checked + .slider:before {
   padding-right: 2px;
   padding-left: 2px;
   border-radius: 4px;
+}
+
+.nav-item .rbac.denied {
+  text-decoration: line-through;
+  filter: brightness(55%);
 }
 
 /*# sourceMappingURL=custom.css.map */
