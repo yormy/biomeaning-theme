@@ -109,27 +109,41 @@
     background-color: map_get($theme-colors, 'primary') !important;
 }
 
+.top-notification-bar {
 
-.marketing {
-    top: 0px;
-    left:0px;
-    padding-top: 0px;
-    padding-bottom:0px;
-    padding-left: 0px;
-    background-color:red;
-    height: 30px;
+    &.system {
+        top: 0px;
+        left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        background-color: lightsalmon;
+        height: 30px;
+    }
+
+    .marketing {
+        top: 0px;
+        left:0px;
+        padding-top: 0px;
+        padding-bottom:0px;
+        padding-left: 0px;
+        background-color:red;
+        height: 30px;
+    }
+
+    .impersonation-warning {
+        top: 0px;
+        left:0px;
+        padding-top: 10px;
+        padding-bottom:0px;
+        padding-left: 0px;
+        background-color:red;
+        color: black;
+        height: 60px;
+    }
 }
 
-.impersonation-warning {
-    top: 0px;
-    left:0px;
-    padding-top: 10px;
-    padding-bottom:0px;
-    padding-left: 0px;
-    background-color:red;
-    color: black;
-    height: 60px;
-}
+
 
 .btn-primary {
     color: white !important;

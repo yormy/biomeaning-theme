@@ -524,7 +524,16 @@ input:checked + .slider:before {
   background-color: #0033cc !important;
 }
 
-.marketing {
+.top-notification-bar.system {
+  top: 0px;
+  left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: lightsalmon;
+  height: 30px;
+}
+.top-notification-bar .marketing {
   top: 0px;
   left: 0px;
   padding-top: 0px;
@@ -532,6 +541,16 @@ input:checked + .slider:before {
   padding-left: 0px;
   background-color: red;
   height: 30px;
+}
+.top-notification-bar .impersonation-warning {
+  top: 0px;
+  left: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: red;
+  color: black;
+  height: 60px;
 }
 
 .loginform {
@@ -556,6 +575,18 @@ input:checked + .slider:before {
 .nav-item .rbac.denied {
   text-decoration: line-through;
   filter: brightness(55%);
+}
+.submenu-inner {
+  padding-top: 70px !important;
+}
+
+.sidebar-inner.ps-enabled.ps {
+  padding-top: 60px !important;
+}
+
+.navbar {
+  margin-left: 0px;
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=custom.css.map */
