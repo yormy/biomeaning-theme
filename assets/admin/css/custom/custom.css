@@ -589,4 +589,17 @@ input:checked + .slider:before {
   padding-left: 15px;
 }
 
+.modal-header.header-success {
+  background-color: forestgreen;
+  color: white;
+}
+.modal-header.header-warning {
+  background-color: orange;
+  color: white;
+}
+.modal-header.header-danger {
+  background-color: red;
+  color: white;
+}
+
 /*# sourceMappingURL=custom.css.map */

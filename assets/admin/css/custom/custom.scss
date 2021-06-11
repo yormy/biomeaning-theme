@@ -195,4 +195,20 @@
     padding-left:15px;
 }
 
+.modal-header
+{
+    &.header-success {
+        background-color: forestgreen;
+        color: white;
+    }
 
+    &.header-warning {
+        background-color: orange;
+        color: white;
+    }
+
+    &.header-danger {
+        background-color: red;
+        color: white;
+    }
+}
