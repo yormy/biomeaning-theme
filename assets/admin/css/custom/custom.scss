@@ -211,4 +211,40 @@
         background-color: red;
         color: white;
     }
+
+    &.header-info {
+        background-color: Blue;
+        color: white;
+    }
 }
+
+//border-color:green;
+
+.v-data-table {
+    tr.v-data-table__expanded {
+
+
+
+        &.v-data-table__expanded__row {
+            border-color: Blue !important;
+            background-color: rgb(196,221,242);
+            border-top-width:4px;
+            border-bottom-width:0px;
+            border-style:solid;
+        }
+
+        &.v-data-table__expanded__content {
+            border-color: Blue !important;
+            border-top-width:0px  !important;;
+            border-bottom-width:4px !important;
+            border-style:solid  !important;;
+            background-color: rgb(196,221,242);
+
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            box-shadow: none !important;
+
+        }
+    }
+}
+

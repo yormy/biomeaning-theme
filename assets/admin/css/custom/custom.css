@@ -601,5 +601,27 @@ input:checked + .slider:before {
   background-color: red;
   color: white;
 }
+.modal-header.header-info {
+  background-color: Blue;
+  color: white;
+}
+
+.v-data-table tr.v-data-table__expanded.v-data-table__expanded__row {
+  border-color: Blue !important;
+  background-color: #c4ddf2;
+  border-top-width: 4px;
+  border-bottom-width: 0px;
+  border-style: solid;
+}
+.v-data-table tr.v-data-table__expanded.v-data-table__expanded__content {
+  border-color: Blue !important;
+  border-top-width: 0px !important;
+  border-bottom-width: 4px !important;
+  border-style: solid !important;
+  background-color: #c4ddf2;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
 
 /*# sourceMappingURL=custom.css.map */

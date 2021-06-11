@@ -597,5 +597,9 @@ input:checked + .slider:before {
   background-color: red;
   color: white;
 }
+.modal-header.header-info {
+  background-color: Blue;
+  color: white;
+}
 
 /*# sourceMappingURL=custom.css.map */
