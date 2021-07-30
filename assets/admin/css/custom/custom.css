@@ -637,4 +637,12 @@ input:checked + .slider:before {
   background: rgba(0, 0, 0, 0.2);
 }
 
+.nprogress-loading .lds-ripple {
+  display: none;
+}
+
+.nprogress-busy .nprogress-loading .lds-ripple {
+  display: block;
+}
+
 /*# sourceMappingURL=custom.css.map */
